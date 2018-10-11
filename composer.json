@@ -1,0 +1,21 @@
+{
+    "name": "administrator/testcomp",
+    "description": "这是一个描述信息，试着写写",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "liwotianname",
+            "email": "2677031999@qq.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+		"php":">=7.0.0"
+	},
+	"autoload":{
+		"psr-4":{
+			"Testcomp\\starttest\\":"src/Testcomp/starttest"
+		}
+	}
+}
